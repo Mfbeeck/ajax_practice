@@ -1,0 +1,10 @@
+<p>
+  <strong>Name:</strong>
+  <%= link_to (@task || task).name, task_path(@task || task) %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= (@task || task).due_date %>
+</p>
+<hr>
